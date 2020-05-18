@@ -1,0 +1,70 @@
+<section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <p>What does people has to say about us?</p>
+        </div>
+
+        <div class="owl-carousel testimonials-carousel">
+
+          <div class="testimonial-item" data-aos="fade-up">
+            <>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              <div class="tube">
+          <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/uSsqGnh3KEo?start=78" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+               <div class="tube">
+          <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/uSsqGnh3KEo?start=78" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              <div class="tube">
+              <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/uSsqGnh3KEo?start=78" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+            <h3>Jena Karlis</h3>
+            <h4>Store Owner</h4>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              <div class="tube">
+                <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/uSsqGnh3KEo?start=78" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              <div class="tube">
+                <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/uSsqGnh3KEo?start=78" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+            <h3>John Larson</h3>
+            <h4>Entrepreneur</h4>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End YouTube Section -->
