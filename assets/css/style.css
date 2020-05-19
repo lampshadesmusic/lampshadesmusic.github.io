@@ -73,6 +73,12 @@ h1, h2, h3, h4, h5, h6 {
   overflow-y: auto;
 }
 
+#header-box .hero-container{
+  float: left;
+  margin: 0 auto;
+  margin-left: 500px;
+}
+
 #header .profile img {
   margin: 15px auto;
   display: block;
@@ -226,15 +232,23 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
 }
 
-#hero .hero-container {
-  position: relative;
+.home-wrapper{
   z-index: 2;
-  min-width: 300px;
 }
-#header-box .hero-container{
-  float: left;
-  margin: 0 auto;
-  margin-left: 500px;
+
+#hero .hero-container {
+  width: 40% !important;
+  float:left;
+  min-width: 300px;
+  position: absolute;
+  margin-left: 400px;
+  height: 300px;
+}
+
+#hero #contact {
+  margin-left: 40%;
+  width: 85%;
+  height: 500px;
 }
 
 #hero h1 {
@@ -775,6 +789,7 @@ section {
 .contact {
   padding-bottom: 130px;
   align-content: center;
+  z-index: 2;
 }
 
 .contact .info {
@@ -838,8 +853,8 @@ section {
 }
 
 
-.container-fluid .section-title h2{
-color: #fff;
+.contact .section-title h2{
+  color: #d9d9d9;
 }
 
 .contact .info .social-links a:hover {

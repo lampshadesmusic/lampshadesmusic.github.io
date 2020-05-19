@@ -74,67 +74,64 @@
 
   <!-- ======= BRAND Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center">
-    <section id="header-box">
+    
+    <div class="home-wrapper">
+      
       <div class="hero-container" data-aos="fade-in">
         <h1>LampShades Music</h1>
         <p><span class="typed" data-typed-items="Become a Professional Musician"></span></p>
-      </div>  
-    </section>    
-  
+      </div>    
 
-      <section id="contact" class="contact"> <!-- ======= FORM ======= -->
-        <div class="container-fluid">
-
-          
-          <div class="row" data-aos="fade-in">
-
-            <div class="col-lg-10 mt-5 mt-lg-10 d-flex align-items-stretch">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                <div class="section-title">
-                  <h2>Register</h2>
+     <!-- ======= FORM ======= -->
+      <div id="contact" class="contact">  
+        <div class="row" data-aos="fade-in">
+          <div class="col-lg-10 mt-5 mt-lg-10 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="section-title">
+                <h2>Register</h2>
+                
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
                   
-                </div>
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    
-                    <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" placeholder="NAME" />
-                    <div class="validate"></div>
-                  </div>
-                  <div class="form-group col-md-6">
-                    
-                    <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" placeholder="EMAIL"/>
-                    <div class="validate"></div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  
-                  <input type="tel" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" placeholder="Phone Number" />
+                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" placeholder="NAME" />
                   <div class="validate"></div>
                 </div>
-                <div class="form-group">
-
-                  <select class="custom-select">
-                    <option hidden>Service</option>
-                    <option value="1">Music Production/Arrangement</option>
-                    <option value="2">Vocal Processing</option>
-                    <option value="3">Mixing/Mastering</option>
-                    <option value="4">Recording Instruments</option>
-                  </select>
+                <div class="form-group col-md-6">
+                  
+                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" placeholder="EMAIL"/>
+                  <div class="validate"></div>
                 </div>
-                <div class="mb-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
-                <div class="text-center"><button type="submit" class="btn btn-success btn-block">Register</button></div>
-              </form>
-            </div>
+              </div>
+              <div class="form-group">
+                
+                <input type="tel" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" placeholder="Phone Number" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
 
+                <select class="custom-select">
+                  <option hidden>Service</option>
+                  <option value="1">Music Production/Arrangement</option>
+                  <option value="2">Vocal Processing</option>
+                  <option value="3">Mixing/Mastering</option>
+                  <option value="4">Recording Instruments</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit" class="btn btn-success btn-block">Register</button></div>
+            </form>
           </div>
 
         </div>
-      </section><!-- End Contact Section -->
-      
+
+      </div>
+   <!-- End Contact Section -->
+    </div>
   </section><!-- End Hero -->  
 
   <main id="main">
