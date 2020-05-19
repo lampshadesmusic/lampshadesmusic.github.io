@@ -947,9 +947,7 @@ box-shadow: -1px 4px 24px -6px rgba(255,255,255,1);
 .contact .dropdown-toggle:hover{
   background-color: #37b3ed;
 }
-ntact .custom-select:hover{
-background-color: #37b3ed;
-}
+
 .contact .custom-select{
 
   border-radius: 4px;
@@ -958,6 +956,14 @@ background-color: #37b3ed;
 /*--------------------------------------------------------------
 # Dropdown ends
 --------------------------------------------------------------*/
+
+#contact .custom-select {
+  font-size: 18px ;
+
+}
+}
+
+
 
 .contact .php-email-form textarea {
   padding: 10px 12px;
