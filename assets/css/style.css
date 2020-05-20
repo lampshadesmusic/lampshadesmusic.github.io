@@ -243,6 +243,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   margin-left: 400px;
   height: 300px;
+  margin-top: 150px;
 }
 
 #hero #contact {
@@ -250,6 +251,45 @@ h1, h2, h3, h4, h5, h6 {
   width: 85%;
   height: 500px;
 }
+
+#hero .contact .section-title h2{
+  color: #d9d9d9;
+}
+
+@media (max-width: 768px) {
+  #hero .hero-container h1{
+    font-size: 28px;
+  }
+
+  #hero .hero-container p{
+    font-size: 24px !important;
+  }
+
+  #hero .hero-container {
+    float: top;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  
+  #hero #contact {
+    margin-top: 120px;
+    margin-left: -85px;
+    width: 600px !important;
+    height: auto;
+    transform: scale(0.8);
+  }
+
+  #hero .contact{
+    padding-bottom: 10px !important;
+  }
+
+  .contact .php-email-form {
+    padding: 20px !important;
+    border-radius: 2px !important; 
+  }
+}
+
 
 #hero h1 {
   margin: 0 0 10px 0;
@@ -854,7 +894,7 @@ section {
 
 
 .contact .section-title h2{
-  color: #d9d9d9;
+  color: black;
 }
 
 .contact .info .social-links a:hover {
