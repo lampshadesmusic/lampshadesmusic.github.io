@@ -8,6 +8,14 @@
 
   // Replace contact@example.com with your real receiving email address
   
+  include 'MailChimp.php';
+
+   use \DrewM\MailChimp\MailChimp;
+
+  $api_key='d4fa56cf1a8b5b0b8b7478a791690627-us18';
+  $list_id='b7678ba30c';
+
+  $MailChimp = new MailChimp($api_key);
   if (isset($_POST)){
     $name = $_POST['name'];
     $email = $_POST['email'];
@@ -15,6 +23,17 @@
     $service = $_POST['service'];
 
 
+    $result = $MailChimp->post("lists/$list_id/members", [
+        'email_address' => $email,
+        'merge_fields' => ['FNAME'=>$name, 'PHONE'=>$phone, 'SERVICE'=>$service],
+				'status'        => 'subscribed',
+			]);
+
+    if ($MailChimp->success()) {
+	  echo "Submitted";	
+    } else {
+	  echo $MailChimp->getLastError();
+    }
     // $servername = "localhost";
     // $username = "username";
     // $password = "password";
@@ -27,6 +46,5 @@
     //   mysqli_query($conn, $query);
     // }
 
-    echo $name."\n".$email."\n".$phone."\n".$service."Submitted..." ;
-  }
+    }
 ?>
