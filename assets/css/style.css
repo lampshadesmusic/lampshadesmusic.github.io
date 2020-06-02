@@ -267,11 +267,15 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #hero .hero-container h1{
-    font-size: 28px;
+    font-size: 32px;
   }
 
   #hero .hero-container p{
     font-size: 24px !important;
+  }
+
+  .section-title h2 {
+    font-size: 32px !important;
   }
 
   #hero .hero-container {
@@ -281,10 +285,10 @@ h1, h2, h3, h4, h5, h6 {
   
   #hero #contact {
     margin-top: 120px;
-    margin-left: -85px;
-    width: 600px !important;
+    margin-left: -180px;
+    width: 800px !important;
     height: auto;
-    transform: scale(0.8);
+    transform: scale(0.80);
   }
 
   #hero .contact{
@@ -837,7 +841,7 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-#contact{
+#bottom-contact {
   background-color: #f1f5f7;
 }
 .contact {
