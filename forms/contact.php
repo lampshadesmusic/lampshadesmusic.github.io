@@ -12,7 +12,7 @@
 
    use \DrewM\MailChimp\MailChimp;
 
-  $api_key='df96983f81f7c5c6f7d34ca1921ca46d-us18';
+  $api_key='-';
   $list_id='b7678ba30c';
 
   $MailChimp = new MailChimp($api_key);
