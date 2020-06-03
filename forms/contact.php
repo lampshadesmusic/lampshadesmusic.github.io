@@ -12,7 +12,7 @@
 
    use \DrewM\MailChimp\MailChimp;
 
-  $api_key='d4fa56cf1a8b5b0b8b7478a791690627-us18';
+  $api_key='-';
   $list_id='b7678ba30c';
 
   $MailChimp = new MailChimp($api_key);
@@ -32,7 +32,17 @@
     if ($MailChimp->success()) {
 	  echo "Submitted";	
     } else {
-	  echo $MailChimp->getLastError();
+      $subscriber_hash = MailChimp::subscriberHash($email);
+
+      $result = $MailChimp->patch("lists/$list_id/members/$subscriber_hash", [
+        'merge_fields' => ['FNAME'=>$name, 'PHONE'=>$phone, 'SERVICE'=>$service],
+        'status'        => 'subscribed',
+      ]);
+      if ($MailChimp->success()) {
+        echo "You are already a subscriber, Updated Successfully"; 
+      } else{
+        echo $MailChimp->getLastError();
+      }
     }
     // $servername = "localhost";
     // $username = "username";
